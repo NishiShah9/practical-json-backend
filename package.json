@@ -1,0 +1,21 @@
+{
+  "name": "jsonpatch_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "fast-json-patch": "^3.1.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.9.0",
+    "nodemon": "^2.0.20"
+  }
+}
